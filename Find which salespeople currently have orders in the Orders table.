@@ -1,0 +1,3 @@
+select a.onum,a.amt,a.odate,a.cnum,b.snum,b.sname from orders a,customer b where a.cnum=b.cnum group by b.snum,a.odate;
+
+   select a.onum,a.amt,a.odate,a.cnum,b.snum from orders a,customer b where a.cnum=b.cnum group by b.snum;
